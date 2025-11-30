@@ -5,8 +5,6 @@ This project demonstrates design accuracy, responsiveness, interactivity, and pr
 
 ### 🎯 Project Objective
 
-***Convert the provided Figma design into a real working webpage while following these rules:***
-
 Use HTML, CSS, and Vanilla JavaScript
 
 Implement at least 6 sections
@@ -22,8 +20,11 @@ Maintain clean, readable, semantic code
 ### 🛠 Technologies Used
 
 HTML5	Structure & Layout
+
 CSS3	Styling, Responsive Design
+
 JavaScript (Vanilla)	Captcha, Form Validation, FAQ Toggle
+
 Vercel	Deployment
 
 
@@ -68,3 +69,4 @@ Everything works without additional setup
 ### 🌐 Live Demo
 
 ***🔗 https://unbundl-landing-page-wine.vercel.app/***
+
