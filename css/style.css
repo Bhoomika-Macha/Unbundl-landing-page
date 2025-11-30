@@ -1,0 +1,409 @@
+/* -----------------------------------------------------
+   GLOBAL RESET & BASE
+----------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFF7EF;
+    font-family: 'Inter', sans-serif;
+    color: #222;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+
+/* -----------------------------------------------------
+   BUTTONS
+----------------------------------------------------- */
+
+.btn-orange {
+    background: linear-gradient(90deg, #FF9D27, #FF7A00);
+    padding: 16px 36px;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-icon {
+    width: 22px;
+}
+
+
+/* -----------------------------------------------------
+   HERO SECTION
+----------------------------------------------------- */
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+    background: #FFF7EF;
+}
+
+.hero-content {
+    max-width: 480px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    line-height: 1.3;
+}
+
+.hero-content h1 span {
+    color: #E87700;
+}
+
+.hero-content p {
+    margin: 20px 0 30px;
+    color: #444;
+    font-size: 20px;
+}
+
+.hero-doctor img {
+    width: 460px;
+    border-radius: 10px;
+}
+
+
+/* -----------------------------------------------------
+   FORM BOX
+----------------------------------------------------- */
+
+.consult-form-section {
+    display: flex;
+    justify-content: center;
+    padding: 70px 20px;
+}
+
+.consult-box {
+    background: #FFF7EF;
+    border: 1px solid #F3D7BC;
+    padding: 40px;
+    max-width: 560px;
+    border-radius: 12px;
+}
+
+.consult-box h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.consult-box p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.consult-form input {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    border: 1px solid #FFCC9A;
+    font-size: 16px;
+}
+
+.captcha-box {
+    display: flex;
+    width: 100%;
+}
+
+.captcha-box input {
+    border-radius: 40px 0 0 40px;
+    margin-bottom: 0;
+}
+
+.captcha-value {
+    background: #502D16;
+    color: white;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 40px 40px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 20px 0;
+    color: #444;
+    font-size: 14px;
+}
+
+.checkbox input {
+    width: 18px;
+    height: 18px;
+}
+
+.checkbox a {
+    color: #503008;
+    text-decoration: underline;
+}
+
+
+/* -----------------------------------------------------
+   RCT SECTION
+----------------------------------------------------- */
+
+.rct-section {
+    text-align: center;
+}
+
+.rct-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.rct-section p {
+    color: #444;
+    margin-bottom: 40px;
+}
+
+.rct-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 40px;
+}
+
+.rct-card {
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.rct-card h3 {
+    color: #E87700;
+    margin: 10px 0;
+}
+
+
+/* -----------------------------------------------------
+   TESTIMONIAL SECTION
+----------------------------------------------------- */
+
+.testimonial-section {
+    text-align: center;
+}
+
+.testimonial-section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.testimonial-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 40px;
+}
+
+.testi-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.testi-item p {
+    margin-top: 12px;
+    font-size: 15px;
+}
+
+
+/* -----------------------------------------------------
+   DOCTOR SECTION
+----------------------------------------------------- */
+
+.doctor-section {
+    text-align: center;
+}
+
+.doctor-grid {
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 60px;
+}
+
+.doctor-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.doctor-card img {
+    border-radius: 12px;
+}
+
+.doctor-card h3 {
+    margin: 10px 0;
+    color: #E87700;
+}
+
+
+/* -----------------------------------------------------
+   GOOGLE REVIEWS
+----------------------------------------------------- */
+
+.google-review-section {
+    text-align: center;
+}
+
+.google-card {
+    margin-bottom: 20px;
+}
+
+.g-icon {
+    width: 70px;
+    margin: auto;
+}
+
+.review-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 60px;
+}
+
+.review-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.review-card img {
+    border-radius: 12px;
+}
+
+.review-card h4 {
+    margin-top: 12px;
+    color: #E87700;
+}
+
+
+/* -----------------------------------------------------
+   CLINIC IMAGE
+----------------------------------------------------- */
+
+.clinic-section {
+    text-align: center;
+}
+
+.clinic-img {
+    width: 80%;
+    margin: auto;
+    border-radius: 12px;
+}
+
+
+/* -----------------------------------------------------
+   FAQ
+----------------------------------------------------- */
+
+.faq-section {
+    padding-bottom: 40px;
+}
+
+.faq {
+    background: white;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    cursor: pointer;
+}
+
+.faq.open {
+    background: #FFE8D3;
+    border: 1px solid #FFB16B;
+}
+
+
+/* -----------------------------------------------------
+   FOOTER
+----------------------------------------------------- */
+
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    background: #FFF1E0;
+    margin-top: 40px;
+}
+
+.footer h3 {
+    font-size: 28px;
+}
+
+.footer span {
+    color: #E87700;
+}
+
+.footer p {
+    margin-top: 8px;
+    color: #503008;
+}
+
+
+/* -----------------------------------------------------
+   RESPONSIVE DESIGN
+----------------------------------------------------- */
+
+@media (max-width: 900px) {
+
+    .hero-header {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero-doctor img {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .rct-grid,
+    .testimonial-grid,
+    .review-grid,
+    .doctor-grid {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+
+    .clinic-img {
+        width: 100%;
+    }
+}
